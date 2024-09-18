@@ -1,0 +1,295 @@
+/* General Footer Styling */
+.footer {
+  background-color: #12151A;
+  color: #fff;
+  padding: 40px 20px;
+  position: relative;
+  background-image: url('../../assets/images/buttombar.png'); /* Background image for bottom section */
+  background-size: contain; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+
+/* Gradient Border at the Top */
+.footer-gradient-border {
+  background: linear-gradient(90deg, #8BF2B5 0%, #35C8EB 100%);
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Top Section Styling */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #12151A; /* Ensure this section is black */
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-family: 'Poppins' sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+}
+.footer-section h5 {
+  font-size: 1.2rem;
+  font-family: 'Poppins' sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+}
+
+/* Bottom Section Styling */
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  padding-left: 20px;
+
+}
+.footer-logo-wrapper {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 214px;
+  height: 50px;
+  top: 5428px;
+  left: 75px;
+  gap: 0px;
+  opacity: 0px;
+  }
+
+.footer-bottom p {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Disclaimer */
+.disclaimer {
+  max-width: 600px;
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 10px;
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+@media (max-width: 768px) {
+/* General Footer Styling */
+.footer {
+  background-color: #12151A;
+  color: #fff;
+  padding: 40px 20px;
+  position: relative;
+  background-image: url('../../assets/images/buttombar.png'); /* Background image for bottom section */
+  background-size: contain; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 660px;
+}
+
+
+
+/* Gradient Border at the Top */
+.footer-gradient-border {
+  background: linear-gradient(90deg, #8BF2B5 0%, #35C8EB 100%);
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Top Section Styling */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #12151A; /* Ensure this section is black */
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-family: 'Poppins' sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+}
+.footer-section h5 {
+  font-size: 1.2rem;
+  font-family: 'Poppins' sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+}
+
+/* Bottom Section Styling */
+.footer-bottom {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  padding-left: 20px;
+
+}
+.footer-logo-wrapper {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 214px;
+  height: 50px;
+  top: 7918px;
+  left: 25px;
+  gap: 0px;
+  opacity: 0px;
+  
+  }
+
+.footer-bottom p {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Disclaimer */
+.disclaimer {
+  max-width: 600px;
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 10px;
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+
+}

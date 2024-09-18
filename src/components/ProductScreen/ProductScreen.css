@@ -1,0 +1,371 @@
+/* src/components/ProductScreen/ProductScreen.css */
+.product-screen {
+  padding: 40px 20px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.product-header h1 {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 72px; /* Update font size to 72px */
+  font-weight: 300; /* Light font weight */
+  line-height: 82px; /* Set the line height to 82px */
+  text-align: center; /* Align the text to the left */
+  margin-bottom: 10px; /* Keep margin for spacing */
+}
+
+
+.product-header p {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 24px; /* Update font size to 24px */
+  font-weight: 400; /* Normal font weight */
+  line-height: 36px; /* Set the line height to 36px */
+  text-align: center; /* Align the text to the left */
+  color: #555; /* Keep the text color */
+  margin-bottom: 40px; /* Keep the space between paragraph and next element */
+}
+
+
+.woman-image {
+  width: 400px;
+  height: auto;
+}
+
+
+.benefits-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  padding: 40px; /* Add padding for spacing */
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 30px; /* Set the font size to 30px */
+  font-weight: 300; /* Light font weight */
+  line-height: 45px; /* Set the line height to 45px */
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.benefits-list img {
+  margin-right: 10px;
+  width: 30px; /* Adjust the size of the check icon */
+}
+
+.highlight {
+  font-weight: 600;
+  background: linear-gradient(90deg, #2E034B 0%, #002182 50%, #2E034B 100%); /* Apply gradient */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent so the background shows */
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+.alert {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #FF225E 0%, #9D2AC6 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent so the background shows */
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+.calm {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #8BF2B5 0%, #35C8EB 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent so the background shows */
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.focus {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #E280DA 0%, #6694EF 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent so the background shows */
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.happy {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #A34D9F 0%, #275FD0 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent so the background shows */
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+/* Box Section */
+.box-section {
+  margin-top: 80px;
+}
+
+.box-section h2 {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 48px; /* Update font size to 48px */
+  font-weight: 300; /* Light font weight */
+  line-height: 82px; /* Set the line height to 82px */
+  text-align: center; /* Align the text to the left */
+  margin-bottom: 40px; /* Keep margin for spacing */
+}
+
+
+.box-image {
+  width: 600px;
+  height: auto;
+  margin-bottom: 40px;
+  
+}
+
+.featured-logos {
+  margin-bottom: 40px;
+}
+
+.featured-logos span {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 18px; /* Update font size to 18px */
+  font-weight: 500; /* Set the font weight to 500 (medium) */
+  line-height: 27px; /* Set the line height to 27px */
+  letter-spacing: 0.25em; /* Add letter spacing */
+  text-align: left; /* Align the text to the left */
+  color: #888; /* Keep the text color as light gray */
+}
+
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  top: 20px;
+  margin-top: 20px;
+  transform: scale(0.8);
+}
+
+.box-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.box-items div {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 30px; /* Update font size to 30px */
+  font-weight: 300; /* Set the font weight to 300 (light) */
+  line-height: 45px; /* Set the line height to 45px */
+  text-align: left; /* Align the text to the left */
+  display: flex; /* Keep the flex layout for aligning items */
+  align-items: center; /* Align items vertically in the center */
+}
+
+
+.box-items img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Adjust the padding and width for mobile */
+  .product-screen {
+    padding: 20px;
+    background-color: #f6f6f6;
+    text-align: center;
+    width: 660px;
+  }
+
+  /* Adjust the header font size for smaller screens */
+  .product-header h1 {
+    font-size: 50px; /* Reduce font size for mobile */
+    line-height: 62px; /* Adjust line height */
+    margin-bottom: 10px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .product-header p {
+    font-size: 36px; /* Reduce font size for mobile */
+    line-height: 54px;
+    margin-bottom: 20px;
+  }
+
+  /* Make the image responsive and centered for mobile */
+  .woman-image {
+    width: 200%; /* Full width on mobile */
+    max-width: 600px; /* Limit maximum width */
+    height: auto;
+    margin-bottom: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* Stack the benefits section vertically */
+.benefits-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between elements */
+  padding: 30px;
+}
+
+/* Adjust the font size and alignment for the benefits list */
+.benefits-list {
+  font-size: 22px; /* Scale down the font size */
+  line-height: 30px; /* Adjust the line height */
+  text-align: left; /* Align text to the left */
+  max-width: 100%; /* Make it fully responsive */
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Adjust margin for smaller spacing */
+  max-width: 600px; /* Limit the width for proper text wrapping */
+}
+
+.benefits-list img {
+  margin-right: 15px;
+  width: 50px; /* Scale down the icon */
+  height: auto; /* Keep the aspect ratio */
+}
+
+/* Highlighted signals */
+.highlight, .alert, .calm, .focus, .happy {
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Deep Sleep Signal */
+.highlight {
+  background: linear-gradient(90deg, #2E034B 0%, #002182 50%, #2E034B 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Alert Signal */
+.alert {
+  background: linear-gradient(90deg, #FF225E 0%, #9D2AC6 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Calm Signal */
+.calm {
+  background: linear-gradient(90deg, #8BF2B5 0%, #35C8EB 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Focus Signal */
+.focus {
+  background: linear-gradient(90deg, #E280DA 0%, #6694EF 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Happy Signal */
+.happy {
+  background: linear-gradient(90deg, #A34D9F 0%, #275FD0 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Box Section */
+.box-section {
+  margin-top: 80px;
+}
+
+.box-section h2 {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 48px; /* Update font size to 48px */
+  font-weight: 400; /* Light font weight */
+  line-height: 82px; /* Set the line height to 82px */
+  text-align: center; /* Align the text to the left */
+  margin-bottom: 40px; /* Keep margin for spacing */
+}
+
+  /* Adjust the box section for mobile */
+  .box-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .box-section h2 {
+    font-size: 52px; /* Adjust font size for mobile */
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+
+  .box-image {
+    width: 150%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* Stack box items for mobile */
+  .box-items {
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 100px;
+  }
+
+  .box-items div {
+    font-size: 30px; /* Adjust font size for mobile */
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .box-items img {
+    width: 40px; /* Adjust icon size */
+    margin-right: 10px;
+  }
+
+  /* Featured logos adjustments */
+  .logos {
+    display: grid; /* Switch to grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 40px; /* Space between grid items */
+    justify-content: center; /* Center the grid */
+    margin-top: 20px;
+    padding-left: 100px;
+  }
+  .divider {
+    width: 80%; /* Adjust width as needed */
+    height: 2px; /* Height of the divider */
+    background-color: #ddd; /* Divider color */
+    margin: 40px auto 0 auto; /* Center and add margin */
+    border-radius: 1px; /* Slight rounding for a smoother look */
+}
+
+  .featured-logos span {
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+  }
+}
+

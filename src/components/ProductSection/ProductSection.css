@@ -1,0 +1,187 @@
+/* ProductSection.css */
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding: 50px;
+  gap: 20px; /* مسافة بين العمودين */
+  background-color: #F6F6F6;
+}
+
+/* العمود الأيسر */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 38%;
+}
+
+.product-icons {
+  display: flex;
+  flex-direction: row; /* جعل الأيقونات في صف */
+  gap: 20px; /* مسافة بين الأيقونات */
+  position: absolute; /* تموضع مطلق لضمان بقاء الأيقونات فوق السلايدر */
+  top: 0; /* وضع الأيقونات في أعلى السلايدر */
+  left: 10%; /* لضمان تموضعها في منتصف الصفحة */
+  transform: translateX(-20%); /* لضمان التمركز الأفقي */
+  transform: translateY(25%); /* لضمان التمركز الأفقي */
+  z-index: 1; /* تأكد من بقاء الأيقونات فوق السلايدر */
+}
+
+.product-icons img {
+  width: 60px;
+  margin-top: 50px;
+  height: auto;
+}
+/* السلايدر */
+.product-slider {
+  width: 500px;      /* حجم السلايدر */
+
+}
+
+/* السلايدر */
+.product-slider {
+  width: 100%; /* عرض السلايدر بالكامل داخل العمود */
+  margin-left: -30px; /* مسافة أسفل الأيقونات */
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.product-slider img {
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  object-fit: cover;
+}
+
+.thumbnail-slider img {
+  cursor: pointer; /* Indicate that the thumbnails are clickable */
+}
+
+.product-slider {
+  width: 100%; /* Ensure the slider takes up the full width */
+}
+
+.thumbnail-slider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.thumbnail-slider img {
+  width: 55px;
+  height: 65px;
+  align-self: start;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-left: 20px;
+
+}
+
+
+/* استبدال النقاط بالأيقونات */
+.feature-icons {
+  display: flex;
+  flex-wrap: wrap; /* يسمح بتقسيم العناصر إلى صفوف */
+  justify-content: space-between; /* توزيع العناصر بشكل متساوي */
+  gap: 20px; /* مسافة بين الصفوف */
+  margin-top: 100px;
+  
+}
+
+.feature-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row; /* جعل الأيقونة والنص عموديًا */
+  align-items: center;
+  text-align: center;
+  width: 45%; /* تحديد العرض لجعل العنصرين في صف واحد */
+  object-fit: cover;
+}
+
+.feature-item img {
+  width: 30px;
+  height: 30;
+  margin-bottom: 20px;
+  object-fit: fill;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #333;
+  margin-left: 3px;
+  align-self: start;
+  justify-self: start;
+  width: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* العمود الأيمن */
+.right-column {
+  width: 45%; /* عرض العمود الأيمن لقسم الأسعار */
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .product-section {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center align items */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+    padding: 50px;
+    gap: 20px; /* مسافة بين العمودين */
+    background-color: #F6F6F6;
+    width: 600px;
+  }
+  .product-icons {
+    display: flex;
+    flex-direction: row; /* جعل الأيقونات في صف */
+    gap: 20px; /* مسافة بين الأيقونات */
+    position: absolute; /* تموضع مطلق لضمان بقاء الأيقونات فوق السلايدر */
+    top: 0; /* وضع الأيقونات في أعلى السلايدر */
+    left: 20%; /* لضمان تموضعها في منتصف الصفحة */
+    transform: translateX(-20%); /* لضمان التمركز الأفقي */
+    transform: translateY(25%); /* لضمان التمركز الأفقي */
+    z-index: 1; /* تأكد من بقاء الأيقونات فوق السلايدر */
+transform: scale(2);
+  }
+  /* Left and right columns take full width on mobile */
+  .left-column, 
+  .right-column {
+    width: 100%; /* Full width for both columns on mobile */
+    margin-bottom: 30px; /* Add spacing between stacked sections */
+    margin-left: 30px; /* Add spacing between stacked sections */
+
+  }
+
+  /* Adjust product slider width for mobile */
+  .product-slider {
+    width: 100%; /* Make slider full width */
+  }
+
+  .product-slider img {
+    width: 100%; /* Make slider full width */
+    padding-top: 20px;
+  }
+  /* Adjust thumbnail slider */
+  .thumbnail-slider img {
+    width: 90px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  /* Adjust feature icons for mobile */
+  .feature-icons {
+    width: 0%; /* Hide feature icons on mobile */
+    display: none; /* Alternatively, hide them completely */
+  }
+
+  .feature-item {
+    width: 0%; /* Hide each feature item */
+    display: none; /* Hide them completely */
+  }
+}

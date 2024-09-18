@@ -1,0 +1,94 @@
+/* src/components/FaqSection/FaqSection.css */
+
+.faq-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .faq-section h2 {
+    font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+    font-size: 48px; /* Set font size to 48px */
+    font-weight: 300; /* Set font weight to 300 */
+    line-height: 72px; /* Set line height to 72px */
+    text-align: center; /* Align text to the left */
+    margin-bottom: 40px; /* Add margin for spacing */
+    padding: 50px 0; 
+  }
+  
+  .faq-item {
+    border-bottom: 1.5px solid #3F3631;
+    padding: 20px 0;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+    font-size: 22px; /* Update font size to 22px */
+    font-weight: 500; /* Set font weight to 500 (medium) */
+    line-height: 33px; /* Set line height to 33px */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .faq-question h3 {
+    margin: 0; /* Ensure no margin around the h3 */
+  }
+  
+  
+  .faq-answer {
+    margin-top: 20px; /* Retain top margin for spacing */
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    font-size: 16px; /* Set font size to 16px */
+    font-weight: 300; /* Set font weight to 300 (light) */
+    line-height: 26px; /* Set line height to 26px */
+    text-align: left; /* Align text to the left */
+    color: #333; /* Dark color for the text */
+  }
+  
+  .faq-answer strong {
+    font-weight: 600; /* Retain strong weight for emphasis */
+  }
+  @media (max-width: 768px) {
+    /* Adjust the width for mobile */
+    .faq-section {
+        width: 170%; /* Make it a bit wider for mobile */
+        margin: 0 auto;
+        padding: 30px 0; /* Reduce padding for mobile */
+        margin-left: 50px;
+    }
+
+    .faq-section h2 {
+        font-size: 46px; /* Adjust font size for mobile */
+        line-height: 50px; /* Adjust line height */
+        margin-bottom: 30px;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .faq-item {
+        border-bottom: 1.5px solid #3F3631;
+        padding: 35px 0; /* Reduce padding for better spacing */
+        
+  }
+
+    .faq-question {
+        font-size: 30px; /* Slightly smaller font size for mobile */
+        font-family: 'Poppins' sans-serif;
+font-weight: 500;
+line-height: 33px;
+text-align: left;
+
+    }
+
+    .faq-answer {
+      font-family: 'Poppins' sans-serif;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 36px;
+      text-align: left;
+      
+    }
+}

@@ -1,0 +1,380 @@
+/* General Styling */
+.signals-section {
+    position: relative;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .money-back-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBFCFB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /* Remove box shadow to match the image */
+  }
+  
+  .guarantee-image {
+    width: 150px;
+    height: auto;
+  }
+  
+  .money-back-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between icon and text */
+    background-color: #FBFCFB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left; /* Ensure all text is aligned to the left */
+  }
+  
+  .guarantee-image {
+    width: 150px;
+    height: auto;
+  }
+  
+  .guarantee-text {
+    margin-left: 20px;
+  }
+  
+  .guarantee-text h2 {
+    font-size: 48px; /* Match the Figma size for the title */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; /* Light font weight as per the design */
+    line-height: 82px; /* Ensures the height of the text matches the design */
+    margin-bottom: 10px;
+    color: #3F3631; /* Adjust the color to match the design */
+  }
+  
+  .guarantee-text p {
+    font-family: 'Poppins', sans-serif; /* Set the font family to Poppins */
+    font-size: 24px; /* Set the font size */
+    font-weight: 300; /* Light font weight */
+    line-height: 36px; /* Set line height */
+    text-align: left; /* Align text to the left */
+    color: #555; /* Optional: Keep the text color subtle */
+    margin-top: 10px; /* Optional: Add space between heading and paragraph */
+  }
+  
+  
+  
+  /* Wave and Title Row Styling */
+  .signal-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center aligns title and wave */
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .wave-top-left {
+    position: absolute;
+    left: -70px; /* Moves wave offscreen slightly */
+    width: 200px; /* Adjust width as needed */
+    transform: scale(0.8);
+  }
+  
+  .signal-title {
+    text-align: start;
+  }
+  
+  .signal-title h2 {
+    font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+    font-size: 48px; /* Update font size to 48px */
+    font-weight: 300; /* Light font weight */
+    line-height: 82px; /* Set the line height to 82px */
+    text-align: left; /* Align the title to the left */
+    margin-bottom: 10px; /* Keep margin for spacing */
+    color: #3F3631; /* Optional: Adjust color for readability */
+  }
+  
+  
+  .signal-title p {
+    font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+    font-size: 24px; /* Update font size to 24px */
+    font-weight: 400; /* Normal font weight */
+    line-height: 36px; /* Set the line height to 36px */
+    text-align: left; /* Align the text to the left */
+    color: #555; /* Set the text color */
+  }
+  
+  
+  /* Grid Layout for Signals */
+/* Grid Layout for Signals */
+.signals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+  }
+  
+  /* Signal Card */
+  .signal-card ,.signal-card-logo {
+    background-color: #FBFBFD;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex; /* Flexbox to align icon and text in a row */
+    align-items: flex-start; /* Align text to the start of the icon */
+    gap: 15px; /* Space between icon and text */
+    text-align: left; /* Text alignment */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* For hover effects */
+  }
+  
+  .signal-card,.signal-card-logo {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .signal-card img {
+    width: 70px; /* Slightly bigger icon */
+    height: 70px;
+  }
+  
+  .signal-card-logo img {
+    width: 60px; /* Slightly bigger icon */
+    height: 60px;
+    border-radius: 50%; /* Makes the image circular */
+    background-color: white; /* White background for the circle */
+    padding: 10px; /* Optional: Adds space inside the circle */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+  }
+
+  .signal-card p {
+    font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+    font-size: 18px; /* Update font size to 18px */
+    font-weight: 300; /* Light font weight */
+    line-height: 30px; /* Set the line height to 30px */
+    text-align: left; /* Align the text to the left */
+    color: #3F3631; /* Set the text color */
+    margin: 0; /* Remove default margin */
+    width: 180px; /* Set width for the paragraph */
+  }
+  
+  
+  
+  
+  /* Wave at the Bottom Right */
+  .wave-bottom-right {
+    position: absolute;
+    bottom: -10px;
+    right: 250px;
+    width: 150px;
+    transform: scale(0.8);
+  }
+
+
+
+  @media (max-width: 768px) {
+
+    /* General Styling */
+.signals-section {
+  position: relative;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 660px;
+}
+
+.money-back-guarantee {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: center;
+  justify-content: center; /* Align items to the left */
+  background-color: #FBFCFB;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  text-align: center; /* Ensure all text is aligned to the left */
+}
+
+.money-back-guarantee img {
+  width: 400px; /* Adjust the size of the image */
+  height: auto;
+  text-align: center; /* Ensure all text is aligned to the left */
+}
+
+.money-back-guarantee p {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Wave and Title Row Styling */
+.signal-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center aligns title and wave */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.wave-top-left {
+display: none;
+}
+
+.signal-title {
+  text-align: center;
+}
+
+.signal-title h2 {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 48px; /* Update font size to 48px */
+  font-weight: 300; /* Light font weight */
+  line-height: 82px; /* Set the line height to 82px */
+  text-align: left; /* Align the title to the left */
+  margin-bottom: 10px; /* Keep margin for spacing */
+  color: #3F3631; /* Optional: Adjust color for readability */
+}
+
+
+.signal-title p {
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 24px; /* Update font size to 24px */
+  font-weight: 400; /* Normal font weight */
+  line-height: 36px; /* Set the line height to 36px */
+  text-align: center; /* Align the text to the left */
+  color: #555; /* Set the text color */
+}
+
+
+/* Grid Layout for Signals */
+/* Grid Layout for Signals */
+.signals-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 3 cards per row */
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: center;
+  justify-content: center; 
+}
+/* Signal Card */
+.signal-card {
+  background-color: #FBFBFD;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex; /* Flexbox to align icon and text in a row */
+  align-items: center; /* Align text to the start of the icon */
+  gap: 15px; /* Space between icon and text */
+  text-align: center; /* Text alignment */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* For hover effects */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: start;
+  justify-content: center; 
+}
+
+.signal-card {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+/* Signal Card */
+.signal-card-logo {
+  background-color: #FBFBFD;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  display: flex; /* Flexbox to align icon and text in a row */
+  align-items: center; /* Align text to the start of the icon */
+  gap: 15px; /* Space between icon and text */
+  text-align: center; /* Text alignment */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* For hover effects */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: start;
+  justify-content: center; 
+}
+
+.signal-card-logo {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.signal-card img {
+  width: 170px; /* Slightly bigger icon */
+  height: 170px;
+  margin: 0 auto;
+}
+.signal-card-logo img {
+  width: 120px; /* Icon width */
+  height: 120px; /* Icon height */
+  border-radius: 50%; /* Make the image circular */
+  background-color: white; /* White background for the circle */
+  padding: 30px; /* Add space inside the circle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+.signal-card p {
+  padding-top: 20px;
+
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 28px; /* Update font size to 18px */
+  font-weight: 300; /* Light font weight */
+  line-height: 30px; /* Set the line height to 30px */
+  text-align: left; /* Align the text to the left */
+  color: #3F3631; /* Set the text color */
+  margin: 0; /* Remove default margin */
+  width: 400px; /* Set width for the paragraph */
+  display: flex;
+  align-items: start;
+  justify-content: start; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: start;
+  justify-content: start; 
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+.signal-card-logo p {
+  padding-top: 20px;
+
+  font-family: 'Poppins', sans-serif; /* Set the font to Poppins */
+  font-size: 28px; /* Update font size to 18px */
+  font-weight: 300; /* Light font weight */
+  line-height: 30px; /* Set the line height to 30px */
+  text-align: left; /* Align the text to the left */
+  color: #3F3631; /* Set the text color */
+  margin: 0; /* Remove default margin */
+  width: 400px; /* Set width for the paragraph */
+  display: flex;
+  align-items: start;
+  justify-content: start; /* Center aligns title and wave */
+  position: relative;
+  flex-direction: column; /* Make sure the icon and text are aligned horizontally */
+  align-items: start;
+  justify-content: start; 
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Wave at the Bottom Right */
+.wave-bottom-right {
+  display: none;
+}
+  }
